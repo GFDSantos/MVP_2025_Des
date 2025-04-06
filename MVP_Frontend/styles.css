@@ -1,0 +1,151 @@
+header {
+    background-color: #0044cc;
+    color: white;
+    width: 100%;
+    padding: 5px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.form-section {
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 21%; /* Ajuste para acomodar 5 inputs na primeira linha */
+    padding: 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 16px;
+}
+
+.add-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: #0044cc;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+label {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+add-btn:hover {
+    background-color: #0044cc;
+}
+
+th,
+td {
+    border: 1px solid rgb(235, 211, 211);
+    padding: 12px 8px 12px 10px;
+    font-size: 18px;
+    text-align: center;
+    transition: 0.2s;
+    justify-content: center;
+    border-collapse: collapse;
+    width: relative;
+}
+
+th {
+    background-color: #0044cc;
+    color: white;
+}
+
+table {
+    width: 80%;
+    min-width: 1000px;
+    border-collapse: collapse;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    font-weight: bold;
+}
+
+tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+tr:hover {
+    background: rgb(200, 199, 199);
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+}
+
+.close {
+    display: inline-block;
+    cursor: pointer;
+    color: red; /* Cor do botão, opcional */
+    font-weight: bold; /* Para destacar */
+    text-align: center; /* Centraliza o texto */
+    justify-content: center;
+}
+
+/* Botão Buscar Endereço */
+.search-btn {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 5px;
+    background-color: rgb(43, 255, 0) !important;
+    color: white;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.search-btn:hover {
+    background-color: #0033a0;
+}
+
+footer {
+    background-color: #0044cc;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    max-width: 1000px;
+    border-radius: 6px;
+}

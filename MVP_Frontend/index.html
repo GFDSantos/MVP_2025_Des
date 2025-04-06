@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cury Vendas</title>
+</head>
+<body>
+    <header>
+        <div class="title">
+            <h2>Cury Vendas Imobiliária</h2>
+        </div>
+    </header>
+
+    <section class="container">
+        <div class="form-section">
+            <h2>Apartamentos - Novos</h2>
+            </div>
+                <input id="newCondominio" type="text" placeholder="Nome do condomínio">
+                <input id="newEndereco" type="text" placeholder="Endereço">
+                <input id="newDisposicao" type="text" placeholder="Disposição">
+                <input id="newValor" type="text" placeholder="Valor">
+                <button class="add-btn" onclick="newItem()">Adicionar</button>
+            </div>
+            <div class="row">
+                <input id="newCep" type="text" placeholder="CEP">
+                <button class="search-btn" onclick="buscarEndereco()">Buscar Endereço</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="items">
+        <table id="myTable">
+            <tr>
+                <th>Nome do condomínio</th>
+                <th>Endereço</th>
+                <th>Disposição</th>
+                <th>Valor</th>
+                <th><img src="https://cdn-icons-png.flaticon.com/512/126/126468.png" width="15px" height="15px"></th>
+            </tr>
+        </table>
+    </section>
+
+    <footer>
+        <p>© 2024 Cury Construtora - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
