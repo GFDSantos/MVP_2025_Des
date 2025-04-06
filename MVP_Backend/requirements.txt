@@ -1,0 +1,9 @@
+Flask==2.3.3
+Flask-Cors==4.0.0
+flask-openapi3==4.1.0
+Flask-SQLAlchemy==3.1.1
+SQLAlchemy==2.0.23
+SQLAlchemy-Utils==0.41.1
+pydantic==2.6.4
+typing_extensions==4.10.0
+nose2==0.12.0
